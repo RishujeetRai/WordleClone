@@ -1,5 +1,3 @@
-/* 
-
 data we need to track:
   -- solution
     -- 5 letter string, e.g. 'drain'
@@ -36,33 +34,15 @@ game process:
     -- when the user runs out of guesses
       -- modal to say 'unlucky'
 
-*/
 
-/*
 db.json process:
 
-npm install -g json-server		: install json server globally
+    npm install -g json-server		: install json server globally
 
-npx json-server ./data/db.json --port 3001	: json file ready for fetch from port 3001
-
-
-  \{^_^}/ hi!
-
-  Loading ./data/db.json
-  Done
-
-  Resources
-  http://localhost:3001/solutions
-
-  Home
-  http://localhost:3001
-
-  Type s + enter at any time to create a snapshot of the database
+    npx json-server ./data/db.json --port 3001	: json file ready for fetch from port 3001
 
 
-*/
+TO START:
 
-/*
-start db server : npx json-server ./data/db.json --port 3001
-start app : npm run start
-*/
+    start db server : npx json-server ./data/db.json --port 3001
+    start app : npm run start
