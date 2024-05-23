@@ -43,14 +43,18 @@
   - Modal to say 'unlucky'
 
 
-db.json process:
+## db.json process:
+```bash
+    npm install -g json-server		#install json server globally
 
-    npm install -g json-server		: install json server globally
+    npx json-server ./data/db.json --port 3001	#json file ready for fetch from port 3001
+```
 
-    npx json-server ./data/db.json --port 3001	: json file ready for fetch from port 3001
-
-
-TO START:
-
-    start db server : npx json-server ./data/db.json --port 3001
-    start app : npm run start
+## TO START:
+```bash
+    #start db server
+    npx json-server ./data/db.json --port 3001
+    
+    #start app
+    npm run start
+```
